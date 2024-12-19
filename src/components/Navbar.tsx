@@ -8,7 +8,7 @@ const Navbar = () => {
     <div>
       {/* pass the data to header */}
       <Header 
-        logoSrc='/logo.png'      
+        logoSrc='/Logo.png'      
         navigation={navigation}
         buttonText='Login'
       />

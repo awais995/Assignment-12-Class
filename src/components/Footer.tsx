@@ -2,7 +2,7 @@ import FooterComponent from "./FooterComponent";
 
 const Footer = () => {
   const footerProps = {
-    logoSrc: "/logo.png", // Replace with your logo path
+    logoSrc: "/Logo.png", // Replace with your logo path
     description:
       "whitepace was created for the new ways we live and work. We make a better workspace around the world.",
     sections: [
