@@ -1,8 +1,17 @@
 import HeroSection from "@/components/Hero";
+import Sponsors from "@/components/OurSpnosors";
 import ProjectSection from "@/components/ProjectSection";
 import TeamComponent from "@/components/TeamSection";
+import YourWork from "@/components/YourWork";
 
 export default function Home() {
+  const sponsorsData = [
+    { name: "Apple", logoSrc: "/Apple.png" },
+    { name: "Microsoft", logoSrc: "/microsoft.png" },
+    { name: "Slack", logoSrc: "/slack.png" },
+    { name: "Google", logoSrc: "/google.png" },
+  ];
+
   return (
     <div>
       <HeroSection
@@ -32,6 +41,15 @@ export default function Home() {
         imageSrc="/Work-together-Image.png"
         imageAlt="hero-image"
       />
+
+      <YourWork
+        title="Your work, everywhere you are"
+        subtitle="Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!"
+        buttonText="Try Taskey"
+        buttonLink="/signup"
+      />
+
+      <Sponsors title="Our sponsors" sponsors={sponsorsData} />
     </div>
   );
 }
