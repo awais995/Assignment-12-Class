@@ -8,7 +8,7 @@ export default function Home() {
   const sponsorsData = [
     { name: "Apple", logoSrc: "/Apple.png" },
     { name: "Microsoft", logoSrc: "/microsoft.png" },
-    { name: "Slack", logoSrc: "/slack.png" },
+    { name: "Slack", logoSrc: "/Slack.png" },
     { name: "Google", logoSrc: "/google.png" },
   ];
 
